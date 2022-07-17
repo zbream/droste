@@ -2,15 +2,10 @@
   "name": "droste",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "serve public"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.15.4",
-    "nodemon": "^1.11.0"
+    "serve": "^14.0.1"
   }
 }
