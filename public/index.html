@@ -16,7 +16,7 @@
       setTimeout(() => {
         const frame = document.createElement('iframe');
         frame.setAttribute('style', 'width:100%;height:100%;box-sizing:border-box;')
-        frame.src = `/?${num + 1}`;
+        frame.src = `?${num + 1}`;
         document.body.appendChild(frame);
       }, DELAY);
     })();
